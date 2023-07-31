@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Untitled</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+	</head>
+	<body class="app-body">
+		<header class="app-header">
+			<div class="app-navbar">
+				<a class="app-title" href="index.html">Untitled</a>
+				<a class="app-navicon" href="#"><i class="fa-solid fa-bars"></i></a>
+			</div>
+			<nav class="app-menu" hidden>
+				<div class="app-menu-header">
+					<a class="app-menu-title" href="#">Untitled</a>
+					<a class="app-menu-close" href="#"><i class="fa-solid fa-xmark"></i></a>
+				</div>
+				<div class="app-menu-block">
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+				</div>
+				<div class="app-menu-block">
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+				</div>
+				<div class="app-menu-block">
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+					<a class="app-menu-link" href="#">Menu</a>
+				</div>
+				<div class="app-menu-footer">
+					<a class="app-menu-link" href="#">
+						<span class="fa-brands fa-facebook"></span>
+					</a>
+					<a class="app-menu-link" href="#">
+						<span class="fa-brands fa-twitter"></span>
+					</a>
+					<a class="app-menu-link" href="#">
+						<span class="fa-brands fa-github"></span>
+					</a>
+				</div>
+			</nav>
+		</header>
+		<main class="app-main">
+			<h1 class="app-heading">Sign up</h1>
+			<form class="app-form" method="post">
+				<div class="app-form-item">
+					<label class="app-form-label" for="email">Mail Address</label>
+					<input class="app-form-text" type="email" name="email" id="email" required>
+				</div>
+				<div class="app-form-item">
+					<label class="app-form-label" for="password">Password</label>
+					<input class="app-form-text" type="password" name="password" id="password" minlength="8" maxlength="128" required>
+				</div>
+				<div class="app-form-buttons">
+					<input class="app-form-button" type="submit" name="submit" id="submit" value="Submit">
+				</div>
+			</form>
+		</main>
+		<footer class="app-footer">
+			<p class="app-copyright">&copy; Untitled 2023</p>
+		</footer>
+		<div class="app-filter" hidden></div>
+	</body>
+</html>
